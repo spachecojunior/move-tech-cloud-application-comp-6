@@ -13,7 +13,7 @@ spec:
   # O mínimo garante alta disponibilidade; o máximo protege a conta e o banco
   # (cada réplica abre o próprio pool de conexões contra o mesmo PostgreSQL).
   minReplicas: 2
-  maxReplicas: 6
+  maxReplicas: 4
 
   metrics:
   # Percentual sobre o resources.requests.cpu do container — sem requests
